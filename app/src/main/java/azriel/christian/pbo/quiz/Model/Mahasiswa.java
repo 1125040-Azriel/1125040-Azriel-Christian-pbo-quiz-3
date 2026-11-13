@@ -1,4 +1,4 @@
-package azriel.christian.pbo.quiz;
+package azriel.christian.pbo.quiz.Model;
 
 public class Mahasiswa {
     private String nim;
