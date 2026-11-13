@@ -20,5 +20,12 @@ public abstract class DataView<T> {
 
     public void printAll() {
         String[] fields = getFields();
+        String[] values = convertModelToValues();
+        for  ( int j = 0; j< fields.length; j++) {
+            System.out.print();
+        }
+
+        System.out.println();
+
     }
 }
